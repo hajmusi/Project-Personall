@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.header {
+  background-color: blue;
+}
+.menu {
+  float: right;
+  display: inline-block;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu > ul > li:hover > ul {
+  display: inline-block;
+}
